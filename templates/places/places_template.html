@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% with place_id_map="ChIJSYuuSx9awokRyrrOFTGg0GY" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+{% load custom_tags %}
+{% get_id place_id_map as places %}
+
+<!--ChIJSYuuSx9awokRyrrOFTGg0GY
+-->
+id: {{ places.id }} <br>
+name: {{ places.name }} <br>
+address:{{ places.address }} <br>
+types:{{ places.types }} <br>
+coordinates:{{ places.coordinates }} <br>
+rating:{{ places.rating }} <br>
+rating_n{{ places.rating_n }} <br>
+international_phone_number:{{ places.international_phone_number }} <br>
+populartimes:{{ places.populartimes }} <br>
+time_wait:{{ places.time_wait }} <br>
+time_spent:{{ places.time_spent }} <br>
+
+
+
+</body>
+</html>
+
+{% endwith %}
