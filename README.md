@@ -13,7 +13,7 @@ Place id identifies the location that the user has added in the search engine of
 - Run the file **“script.sh”**
 - Open the navigation browser of your choice and add in the navigation bar `"localhost:8000/map/"`
 - When leaving the application you should go to the terminal or cmd that was opened when the application was running,
-and press **"Ctrl c"** this action will close the server and release the port **‘8000’** 
+and press **"Ctrl+c"** this action will close the server and release the port **‘8000’** 
 
 ### render_map(request)
 Ubicado en la carpeta PopularTimesTest en el archivo views.py, la función se encarga de abrir el map_template.html, que renderiza un mapa de google map en una página web
