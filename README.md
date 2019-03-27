@@ -16,6 +16,11 @@ Place id identifies the location that the user has added in the search engine of
 and press "Ctrl c" this action will close the server and release the port ‘8000’ 
 
 ### render_map(request)
+Ubicado en la carpeta PopularTimesTest en el archivo views.py, la función se encarga de abrir el map_template.html, que renderiza un mapa de google map en una página web
+
+### get_id(...)
+Ubicado en la carpeta PopularTimesTest en el archivo views.py, la función usa la librería populartime para poder obtener la información de un lugar en específico, determinado por el parámetro. Este debe de ser un place_id proveniente de la lista de IDs de Google.
+ 
 
 
 
