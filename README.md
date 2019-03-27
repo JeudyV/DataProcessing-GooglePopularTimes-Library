@@ -16,7 +16,12 @@ and press **"Ctrl+c"** this action will close the server and release the port **
 
 ### get_id(...)
 Located at `views.py` inside PopularTimesTest folder. Implements popular id method called **get_id**, using as arguments the *API_KEY* and the *Place_ID*, the last one is based from Google Places ID
- 
 
+### How to user the map
+
+#### 1. Run the Demo
+![Webp net-gifmaker](https://user-images.githubusercontent.com/46583912/55092869-f9472e00-5078-11e9-9f4b-5e76819e7045.gif)
+
+#### 2. User The demo
 
 
