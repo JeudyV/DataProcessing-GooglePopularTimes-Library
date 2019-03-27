@@ -23,5 +23,5 @@ Located at `views.py` inside PopularTimesTest folder. Implements popular id meth
 ![Webp net-gifmaker](https://user-images.githubusercontent.com/46583912/55092869-f9472e00-5078-11e9-9f4b-5e76819e7045.gif)
 
 #### 2. User The demo
-
+![Webp net-gifmaker (1)](https://user-images.githubusercontent.com/46583912/55095765-52fe2700-507e-11e9-9bc2-a3c01776f545.gif)
 
