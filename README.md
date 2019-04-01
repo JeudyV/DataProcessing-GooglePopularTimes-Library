@@ -35,13 +35,12 @@ Response
 time_wait and time_spent are in minutes
 > **Note:** The time_wait and time_spent parameters were only added recently to Google Maps and are only present as a language specific string. The extracted values may therefore be incorrect and you might have to parse the raw string yourself, depending on your language settings.
 
-**_example_**
 
 ## Unittest one
 
 ```python 
 
-def test_info_populartime():
+def test_one_info_populartime():
     try:
         temp = json.dumps(get_id("ChIJdbK33I7joI8RleAOLkLhykg"))
         tempDict = json.loads(temp)
@@ -103,7 +102,7 @@ JSON Expected:{
 
 ```python
 
-def test_info_populartime():
+def test_two_info_populartime():
     try:
         temp = json.dumps(info_populartime("ChIJSYuuSx9awokRyrrOFTGg0GY"))
         tempDict = json.loads(temp)
